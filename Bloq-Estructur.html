@@ -8,6 +8,7 @@
     <style>
         body{
             background-color:rgb(112, 112, 112);
+            font-size: 14pt;
             
         }
         header{
@@ -23,18 +24,45 @@
             padding: 15px;
             top: auto;
         }
-        
-        div.caja1{
-            background-color: yellowgreen;
-            width: 25%;
-            height: 600px;
+        div.cuerpo{
+            display: flex;
+            padding: 20px 0 ;
+            height: 435px;
         }
-        div.caja2{
-            background-color: yellowgreen;
-            width: 50%;
+        .caja1{
+            background-color: rgb(246, 214, 29);
+            width: 30%;
+            padding: 10px;
+                        
         }
-        div.caja3{
+        .caja2{
             background-color: yellowgreen;
+            margin: 0 15px;
+            width: 40%;
+            padding: 10px;
+        }
+        .caja3{
+            background-color: rgb(175, 99, 13);
+            width: 30%;
+            padding: 10px;
+        }
+        h1.alinear{
+            text-align: center;
+            font-size: 30pt;
+        }
+        h3{
+            text-align: center;
+            height: 75px;
+            padding: 5px 0;
+            font-size: 20pt;
+            ;
+            
+        }
+        .subcaja1{
+            background-color: rgb(228, 23, 228);
+        }
+        .subcaja2{
+            background-color: rgb(240, 57, 11);
         }
     </style>
 </head>
@@ -44,23 +72,23 @@
     </header>
     <div class="cuerpo">
         <div class="caja1">
-            <h1> < nav ></h1>
+            <h1 class="alinear"> < nav ></h1>
             <h2> < header > </h2>
         </div>
 
         <div class="caja2">
-            <h1> < article > </h1>
+            <h1 class="alinear"> < article > </h1>
             <h2> < header > </h2>
-            <h3> section </h3>
-            <h3> section </h3>
+            <h3 class="subcaja1"> section </h3>
+            <h3 class="subcaja1"> section </h3>
             <h2> < footer > </h2>
             
         </div>
         <div class="caja3">
-            <h1> < aside > </h1>
-            <h3> section </h3>
-            <h3> section </h3>
-            <h3> section </h3>
+            <h1 class="alinear"> < aside > </h1>
+            <h3 class="subcaja2"> section </h3>
+            <h3 class="subcaja2"> section </h3>
+            <h3 class="subcaja2"> section </h3>
         </div>
     </div>
     <footer>
